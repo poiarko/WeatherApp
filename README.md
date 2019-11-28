@@ -1,1 +1,1 @@
-https://poiarko.github.io/WeatherApp.github.io/
+https://poiarko.github.io/WeatherApp/
