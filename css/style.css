@@ -1,0 +1,80 @@
+body {
+    background: url(https://www.publicdomainpictures.net/pictures/280000/velka/mountain-weather-background-1545512613Vss.jpg);
+    background-size: cover;
+    display: flex;
+    max-height: 100vh;
+}
+
+#current-weather-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 4% auto;
+    padding: 25px 12px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: hsla(199, 24%, 66%, 0.8);
+    background-size: cover;
+}
+
+ul li {
+    list-style-type: none;
+    font-size: 21px;
+    text-align: left;
+    color: #FFFFFF;
+    font-family: 'Fresca', sans-serif;
+    letter-spacing: 0.2px;
+}
+
+.getWeather {
+    margin: 10px;
+    padding: 12px 14px;
+    font-size: 17px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-family: 'Fresca', sans-serif;
+    background-color: #FFFFFF;
+    opacity: 0.8;
+    color: hsl(210, 3%, 16%);
+    transition: 0.5s;
+}
+
+.getWeather:hover {
+    background-color: hsla(0, 0%, 7%, 0.8);
+    color: #FFFFFF;
+    /* border: 3px solid #FFFFFF; */
+    /* border-radius: 5px; */
+}
+
+#find-city {
+    display: flex;
+    flex-direction: row;
+}
+
+input {
+    margin: 10px;
+    padding: 12px 14px;
+    font-size: 17px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-family: 'Fresca', sans-serif;
+    background-color: #FFFFFF;
+    opacity: 0.8;
+    color: hsl(216, 100%, 60%);
+}
+#city-weather-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 4% auto;
+    padding: 25px 12px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: hsla(199, 24%, 66%, 0.8);
+    background-size: cover;
+}

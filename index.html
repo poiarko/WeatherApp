@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="current-weather-details">
+            <div id="icon"></div>
+        <ul>
+            <li id="current-name">-</li><br>
+            <li id="current-temperature">-</li><br>
+            <li id="current-description">-</li><br>
+            <li id="current-wind-speed">-</li><br>
+            <li id="current-pressure">-</li><br>
+            <li id="current-humidity">-</li>
+        </ul>
+        <button class="getWeather" onclick="getWeather()">Get Current Weather</button>
+    </div>
+    <div id="city-weather-details">
+        <div id="icon-city"></div>
+        <ul>
+            <li id="current-name-city">-</li><br>
+            <li id="current-temperature-city">-</li><br>
+            <li id="current-description-city">-</li><br>
+            <li id="current-wind-speed-city">-</li><br>
+            <li id="current-pressure-city">-</li><br>
+            <li id="current-humidity-city">-</li>
+        </ul>
+        <div id="find-city">
+            <input type="text" id="city_input" placeholder="enter city">
+            <button id="find_button" class="getWeather bntFind" disabled>Find Weather by City</button>
+        </div>
+
+    </div>
+  
+    <script src="js/script.js"></script>
+</body>
+
+</html>
